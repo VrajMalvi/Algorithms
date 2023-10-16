@@ -28,7 +28,7 @@ def isValidSubsequence(array, sequence):
     seqId = 0
     for value in array:
         if seqId == len(sequence):
-            break
+            break # or you can return True
         if sequence[seqId] == value:
             seqId +=1
     return seqId == len(sequence)
