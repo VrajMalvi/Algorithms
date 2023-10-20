@@ -17,6 +17,13 @@
 # "mean_confidence_ interval" : [2.6141, 5.3859],
 # }
 
+# mean = toal sum / total number
+# median = middle value
+# mode = most occuring number 
+# sample varience = for every (number - mean) ^2/ total number -1
+# STD = Sqrt( sample varience)
+# mean confidence interval = [ mean - z_score_95% * (Std / sqrt(toal_number)), mean + z_score_95% * (Std / sqrt(toal_number))]
+
 def get_statistics(input_list):
     sorted_input = sorted(input_list)
     input_length = len(input_list)

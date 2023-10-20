@@ -5,6 +5,8 @@
 # computations that your function performs.
 # If the matrices can't be multiplied together, your function should return [[]]
 
+
+# sol 1
 def sparse_matrix_multiplication(matrix_a, matrix_b):
     
     if len(matrix_a[0]) != len(matrix_b):
@@ -30,3 +32,12 @@ def get_dict_of_nonzero_cells(matrix):
                 dict_of_nonzero_cells[(i,j)] = matrix[i][j]
     return dict_of_nonzero_cells
                 
+
+# Sol 2 
+import numpy as np
+def sparse_matrix_multiplication(matrix_a, matrix_b):
+    # Write your code here.
+    try:
+        return(np.dot(np.array(matrix_a), np.array(matrix_b))).tolist()
+    except:
+        return [[]]
