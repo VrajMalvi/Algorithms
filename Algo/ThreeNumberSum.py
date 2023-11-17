@@ -3,7 +3,6 @@
 
 # Solution 1 :
 def threeNumberSum(array, targetSum):
-    # Write your code here.
     array.sort()
     current = 0
     output = []
@@ -25,7 +24,6 @@ def threeNumberSum(array, targetSum):
 
 # Solution 2 :
 def threeNumberSum(array, targetSum):
-    # Write your code here.
     array.sort()
     triplets = []
     for i in range(len(array)-2):
