@@ -10,7 +10,7 @@ def smallestDifference(arrayOne, arrayTwo):
     arrayTwo.sort()
     idxOne = 0
     idxTwo = 0
-    smallest = float('inf')
+    smallest = float('inf')  # infinite which will be always largest 
     current = float('inf')
     smallestPair = []
     while idxOne < len(arrayOne) and idxTwo < len(arrayTwo):
