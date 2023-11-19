@@ -6,7 +6,7 @@ def threeNumberSum(array, targetSum):
     array.sort()
     current = 0
     output = []
-    while current < (len(array) - 1):
+    while current < (len(array) - 2):
         left = current + 1
         right = len(array) - 1
         while (left < right):
