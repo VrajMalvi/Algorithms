@@ -1,4 +1,4 @@
-# Distance And Similarities • £
+# Distance And Similarities
 # Write a series of functions that take in two lists, X = x_1 ... ×_n and Y = y_1 ... _n and return a list
 # containing
 # • Firstly, the Euclidean distance between X and Y.
