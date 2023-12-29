@@ -1,4 +1,6 @@
 # O(n^2) time | O(1) space
+# Insertion Sort is a simple sorting algorithm 
+# that builds the final sorted array one element at a time. 
 
 def insertionSort(array):
     # Write your code here.
